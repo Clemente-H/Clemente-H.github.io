@@ -36,13 +36,13 @@ export function Contact() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/clemente-henriquez-b0a883277/"
+                href="www.linkedin.com/in/clemente-henriquez-b0a883277"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
               >
                 <Linkedin className="w-5 h-5 text-red-900 dark:text-red-500" />
-                <span>linkedin.com/in/clemente-henriquez</span>
+                <span>www.linkedin.com/in/clemente-henriquez-b0a883277</span>
               </a>
 
             </div>
