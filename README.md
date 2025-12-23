@@ -1,11 +1,26 @@
+# Clemente Henríquez - Personal Website
 
-  # Portfolio Page Design
+Personal portfolio and professional website for Clemente Henríquez, Machine Learning Engineer.
 
-  This is a code bundle for Portfolio Page Design. The original project is available at https://www.figma.com/design/F0MtV1U4YS8oyJ0lLEPtim/Portfolio-Page-Design.
+## Features
 
-  ## Running the code
+- Personal portfolio with bio, projects, and experience
+- Teaching section with course materials
+- Dark/Light theme toggle
+- Responsive design
+- Built with React + TypeScript + Vite
 
-  Run `npm i` to install the dependencies.
+## Development
 
-  Run `npm run dev` to start the development server.
-  
+```bash
+npm install
+npm run dev
+```
+
+## Deployment
+
+```bash
+npm run build
+```
+
+Deploy the `dist/` folder to GitHub Pages.
