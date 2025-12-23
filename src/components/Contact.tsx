@@ -36,45 +36,16 @@ export function Contact() {
               </a>
 
               <a
-                href="https://linkedin.com/in/clemente-henriquez"
+                href="https://www.linkedin.com/in/clemente-henriquez-b0a883277/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
               >
                 <Linkedin className="w-5 h-5 text-red-900 dark:text-red-500" />
-                <span>https://www.linkedin.com/in/clemente-henriquez-b0a883277</span>
+                <span>linkedin.com/in/clemente-henriquez</span>
               </a>
 
             </div>
-          </div>
-
-          <div className="bg-white dark:bg-stone-900 p-8 border border-stone-200 dark:border-stone-800">
-            <h3 className="text-stone-900 dark:text-stone-100 mb-4">Quick Connect</h3>
-            <p className="text-sm text-stone-600 dark:text-stone-400 mb-6">
-              Send me a message and I'll get back to you as soon as possible.
-            </p>
-            <form className="space-y-4">
-              <div>
-                <input 
-                  type="email" 
-                  placeholder="your.email@example.com"
-                  className="w-full px-4 py-2 border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-950 text-stone-900 dark:text-stone-100 focus:border-red-900 dark:focus:border-red-500 focus:outline-none transition-colors placeholder:text-stone-400"
-                />
-              </div>
-              <div>
-                <textarea 
-                  rows={4}
-                  placeholder="Your message..."
-                  className="w-full px-4 py-2 border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-950 text-stone-900 dark:text-stone-100 focus:border-red-900 dark:focus:border-red-500 focus:outline-none transition-colors resize-none placeholder:text-stone-400"
-                />
-              </div>
-              <button 
-                type="submit"
-                className="w-full px-6 py-3 bg-red-900 dark:bg-red-800 hover:bg-red-800 dark:hover:bg-red-700 text-white transition-colors font-mono text-sm"
-              >
-                Send Message
-              </button>
-            </form>
           </div>
         </div>
         
