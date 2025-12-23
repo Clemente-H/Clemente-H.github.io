@@ -2,5 +2,4 @@
 node_modules/
 clemente_henriquez_cv.md
 *.png
-dist/
 .vite/
