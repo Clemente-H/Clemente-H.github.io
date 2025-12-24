@@ -1,5 +1,6 @@
-import { Github, Linkedin, Mail, FileText } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
+// Updated version
 export function Contact() {
   return (
     <section id="contact" className="py-32 px-6 bg-neutral-50 dark:bg-stone-950">
@@ -9,43 +10,54 @@ export function Contact() {
           <div className="h-1 w-12 bg-red-900 dark:bg-red-500"></div>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12">
-          <div className="space-y-6">
-            <p className="text-stone-600 dark:text-stone-400">
-              I'm always interested in collaborating on AI/ML projects, discussing
-              research opportunities, or exploring teaching and consulting engagements.
-            </p>
+        <div className="space-y-6">
+          <p className="text-stone-600 dark:text-stone-400">
+            I'm always interested in collaborating on AI/ML projects, discussing
+            research opportunities, or exploring teaching and consulting engagements.
+          </p>
 
-            <div className="space-y-4">
-              <a
-                href="mailto:clemente.henriquez@ug.uchile.cl"
-                className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
-              >
-                <Mail className="w-5 h-5 text-red-900 dark:text-red-500" />
-                <span>clemente.henriquez@ug.uchile.cl</span>
-              </a>
+          <div className="space-y-4">
+            <a
+              href="mailto:clemente.henriquez@ug.uchile.cl"
+              className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
+            >
+              <Mail className="w-5 h-5 text-red-900 dark:text-red-500" />
+              <span>clemente.henriquez@ug.uchile.cl</span>
+            </a>
 
-              <a
-                href="https://github.com/Clemente-H"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
-              >
-                <Github className="w-5 h-5 text-red-900 dark:text-red-500" />
-                <span>github.com/Clemente-H</span>
-              </a>
+            <a
+              href="https://github.com/Clemente-H"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
+            >
+              <Github className="w-5 h-5 text-red-900 dark:text-red-500" />
+              <span>github.com/Clemente-H</span>
+            </a>
 
-              <a
-                href="www.linkedin.com/in/clemente-henriquez-b0a883277"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
-              >
-                <Linkedin className="w-5 h-5 text-red-900 dark:text-red-500" />
-                <span>www.linkedin.com/in/clemente-henriquez-b0a883277</span>
-              </a>
+            <a
+              href="https://www.linkedin.com/in/clemente-henriquez-b0a883277"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
+            >
+              <Linkedin className="w-5 h-5 text-red-900 dark:text-red-500" />
+              <span>linkedin.com/in/clemente-henriquez-b0a883277</span>
+            </a>
 
-            </div>
+            <a
+              href="https://huggingface.co/ClementeH"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-stone-700 dark:text-stone-300 hover:text-red-900 dark:hover:text-red-400 transition-colors group"
+            >
+              <svg className="w-5 h-5 text-red-900 dark:text-red-500" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.252 3.545c-4.083 0-7.396 3.313-7.396 7.396s3.313 7.396 7.396 7.396 7.396-3.313 7.396-7.396-3.313-7.396-7.396-7.396zm0 13.292c-3.252 0-5.896-2.644-5.896-5.896s2.644-5.896 5.896-5.896 5.896 2.644 5.896 5.896-2.644 5.896-5.896 5.896z"/>
+                <path d="M9.545 9.545c-.828 0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5 1.5-.672 1.5-1.5-.672-1.5-1.5-1.5zm5.414 0c-.828 0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5 1.5-.672 1.5-1.5-.672-1.5-1.5-1.5z"/>
+              </svg>
+              <span>huggingface.co/ClementeH</span>
+            </a>
+
           </div>
         </div>
         
