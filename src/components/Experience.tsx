@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function Experience() {
   const experiences = [
     {
@@ -50,12 +52,12 @@ export function Experience() {
           <h2 className="text-red-900 dark:text-red-400 mb-6">Experience</h2>
           <div className="h-1 w-12 bg-red-900 dark:bg-red-500"></div>
         </div>
-        
+
         <div className="space-y-12 mb-20">
           {experiences.map((exp, index) => (
             <div key={index} className="relative pl-8 border-l-2 border-stone-200 dark:border-stone-700">
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-red-900 dark:bg-red-500"></div>
-              
+
               <div className="space-y-2">
                 <div className="flex items-baseline justify-between gap-4">
                   <h3 className="text-stone-900 dark:text-stone-100">{exp.role}</h3>
@@ -65,7 +67,7 @@ export function Experience() {
                 <p className="text-stone-600 dark:text-stone-400">{exp.description}</p>
                 <div className="flex flex-wrap gap-2 pt-2">
                   {exp.skills.map((skill, skillIndex) => (
-                    <span 
+                    <span
                       key={skillIndex}
                       className="font-mono text-xs text-stone-600 dark:text-stone-400"
                     >
@@ -91,6 +93,15 @@ export function Experience() {
               <p className="text-stone-600 dark:text-stone-400">{item.description}</p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link
+            to="/teaching"
+            className="inline-flex items-center gap-2 px-6 py-3 font-mono text-sm bg-red-900 dark:bg-red-500 text-white hover:bg-red-700 dark:hover:bg-red-400 transition-colors rounded"
+          >
+            You can find the slides HERE →
+          </Link>
         </div>
       </div>
     </section>
