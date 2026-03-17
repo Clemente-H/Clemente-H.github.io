@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function Projects() {
   const projects = [
     {
@@ -67,6 +69,15 @@ export function Projects() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link
+            to="/projects"
+            className="inline-flex items-center gap-2 px-6 py-3 font-mono text-sm bg-red-900 dark:bg-red-500 text-white hover:bg-red-700 dark:hover:bg-red-400 transition-colors rounded"
+          >
+            You can find all my projects HERE →
+          </Link>
         </div>
       </div>
     </section>

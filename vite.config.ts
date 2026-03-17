@@ -13,10 +13,14 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: 'dist',
+    outDir: 'docs',
+    emptyOutDir: true,
   },
   server: {
     port: 3000,
     open: true,
+    watch: {
+      ignored: ['**/assets/**', '**/dist/**'],
+    },
   },
 })

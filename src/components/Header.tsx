@@ -53,6 +53,14 @@ export function Header() {
               </li>
               <li>
                 <Link
+                  to="/projects"
+                  className="text-stone-600 dark:text-stone-400 hover:text-red-900 dark:hover:text-red-400 transition-colors"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/teaching"
                   className="text-stone-600 dark:text-stone-400 hover:text-red-900 dark:hover:text-red-400 transition-colors"
                 >
