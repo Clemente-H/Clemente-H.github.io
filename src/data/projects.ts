@@ -25,7 +25,7 @@ export const projectCategories: ProjectCategory[] = [
       {
         name: "NASA Space Explorer",
         description:
-          "LlamaIndex Choice Award winner. Agentic AI application delivering live space data through custom MCP servers with 15 specialized NASA tools. Built for Gradio & MCP Hackathon.",
+          "Scrolling trhough instagram someone said that the Nasa has a public API. 'Nice, I thought'. Few days after, scrolling trought Linkedin this time I found this hackaton and it made click!. Lets build something with Mistral and Nasa's API. Thats hoy this project was born, and I got a price!. LlamaIndex Choice Award winner. Agentic AI application delivering live space data through custom MCP servers with 15 specialized NASA tools. Built for Gradio & MCP Hackathon.",
         year: 2025,
         tags: ["Python", "MCP", "LlamaIndex", "Gradio", "Agentic AI"],
         links: [
@@ -36,7 +36,7 @@ export const projectCategories: ProjectCategory[] = [
       {
         name: "Vibe Mood Playlist Agent",
         description:
-          "Mood-based playlist generator built for Google Cloud Run hackathon. Creates personalized playlists based on your current vibe using LLM agents.",
+          "Another hackaton project. A colleague came up with the idea, and a week after this project was done. It has a few issues, but overall we end up pretty happy of how it turn out. Mood-based playlist generator built for Google Cloud Run hackathon. Creates personalized playlists based on your current vibe using LLM agents.",
         year: 2025,
         tags: ["Python", "LLM Agents", "Google Cloud Run", "Spotify API"],
         links: [
@@ -81,7 +81,7 @@ export const projectCategories: ProjectCategory[] = [
       {
         name: "Marp Web Editor",
         description:
-          "Browser-based editor for creating Marp presentations. Write markdown and preview your slides live.",
+          "Browser-based editor for creating Marp presentations. Write markdown and preview your slides live. I didn't like creating presentations, and llms by that time didn't do a good job, so I built this tool to make it easier and faster to create Marp presentations directly in the browser. ",
         year: 2025,
         tags: ["JavaScript", "Marp", "Web"],
         links: [
@@ -90,7 +90,7 @@ export const projectCategories: ProjectCategory[] = [
       },
       {
         name: "Timeline App",
-        description: "Web interface to visualize and share timelines interactively.",
+        description: "Web interface to visualize and share timelines interactively. My dad needed to create many timelines for his work, so I built this tool to make it easier for him and his colleagues to create and share timelines with interactive features.",
         year: 2025,
         tags: ["Python", "Web", "Data Visualization"],
         links: [
@@ -100,7 +100,7 @@ export const projectCategories: ProjectCategory[] = [
       {
         name: "Summary Daily News",
         description:
-          "Automated pipeline that delivers personalized daily news summaries straight to your phone.",
+          "Automated pipeline that delivers personalized daily news summaries straight to your phone. I wanted to stay informed about the news but didn't have the time to read multiple articles every day. So I built this tool to automatically summarize the news and send it to my phone, making it easy to stay updated on the go.",
         year: 2026,
         tags: ["Python", "Automation", "NLP"],
         links: [
@@ -110,7 +110,7 @@ export const projectCategories: ProjectCategory[] = [
       {
         name: "Bike Itaú Analysis",
         description:
-          "Data analysis of Bike Itaú bike-sharing stations in Santiago, exploring usage patterns and station availability.",
+          "Data analysis of Bike Itaú bike-sharing stations in Santiago, exploring usage patterns and station availability. \n I really like this bike service, but many times there is no where to park the bike. One day I had to take a realy long detour because of that, and I thought 'I know for sure that there is a overflow of bikes in some stations, and a lack of bikes in others, but how can I check that?'. So I built this project to analyze the data and find patterns of bike usage and station availability.",
         year: 2026,
         tags: ["Python", "Data Analysis", "Visualization"],
         links: [
@@ -119,7 +119,7 @@ export const projectCategories: ProjectCategory[] = [
       },
       {
         name: "Telegram Hangman Bot",
-        description: "Classic hangman game playable through a Telegram bot.",
+        description: "Classic hangman game playable through a Telegram bot. I was bored during a hackaton IRL results presentation (we knew that our team didn't win), so as we were just waiting for the results to be announced I decided to build a simple Telegram bot that allows you to play hangman. It was a fun way to pass the time and ended up being pretty popular among some of my friends.",
         year: 2025,
         tags: ["Python", "Telegram Bot"],
         links: [
@@ -145,7 +145,7 @@ export const projectCategories: ProjectCategory[] = [
       {
         name: "Mistral Telegram Calendar Bot",
         description:
-          "Telegram bot that manages your calendar using natural language, powered by Mistral AI.",
+          "Telegram bot that manages your calendar using natural language, powered by Mistral AI. To apply for an intership at Mistral AI I built this Telegram bot that allows you to manage your calendar using natural language. It uses Mistral AI to understand your commands and interact with your calendar, making it easy to schedule events, set reminders, and more, all through a simple chat interface.",
         year: 2025,
         tags: ["Python", "Mistral AI", "Telegram", "NLP"],
         links: [
