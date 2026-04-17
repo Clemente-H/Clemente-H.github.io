@@ -9,6 +9,7 @@ export interface Project {
   year: number;
   tags: string[];
   links: ProjectLink[];
+  featured?: boolean;
 }
 
 export interface ProjectCategory {
@@ -24,6 +25,7 @@ export const projectCategories: ProjectCategory[] = [
     projects: [
       {
         name: "NASA Space Explorer",
+        featured: true,
         description:
           "Scrolling through Instagram someone said that NASA has a public API. 'Nice, I thought'. A few days later, scrolling through LinkedIn I found this hackathon and it clicked!. Let's build something with Mistral and NASA's API. That's how this project was born, and I got a prize!. LlamaIndex Choice Award winner. Agentic AI application delivering live space data through custom MCP servers with 15 specialized NASA tools. Built for Gradio & MCP Hackathon.",
         year: 2025,
@@ -80,6 +82,7 @@ export const projectCategories: ProjectCategory[] = [
       },
       {
         name: "Marp Web Editor",
+        featured: true,
         description:
           "Browser-based editor for creating Marp presentations. Write markdown and preview your slides live. I didn't like creating presentations, and llms by that time didn't do a good job, so I built this tool to make it easier and faster to create Marp presentations directly in the browser. ",
         year: 2025,
@@ -134,6 +137,7 @@ export const projectCategories: ProjectCategory[] = [
     projects: [
       {
         name: "Spanish LLM Fine-tuning (Faisan)",
+        featured: true,
         description:
           "Master's thesis improving instruction-following of Falcon-7B for Spanish. Achieved a 2.6-point improvement on adapted MT-Bench using LoRA and QLoRA techniques.",
         year: 2023,
